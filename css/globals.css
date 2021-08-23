@@ -1,0 +1,239 @@
+/* font size */
+.font-poppins{
+  font-family: 'Poppins','san-serif' !important;
+}
+.text-base{
+  font-size: 1rem !important;
+}
+.text-lg{
+  font-size: 1.125rem !important;
+}
+.text-xl{
+  font-size:  1.25rem !important;
+}
+.text-2xl{
+  font-size: 1.5rem !important;
+}
+.text-3xl{
+  font-size: 1.875rem !important;
+}
+.text-4xl{
+  font-size: 2.25rem ;
+}
+.text-5xl{
+  font-size: 3rem;
+}
+.text-6xl{
+  font-size: 3.75rem;
+}
+.text-7xl{
+  font-size: 4.5rem;
+}
+.text-8xl{
+  font-size: 6rem;
+}
+.text-9xl{
+  font-size: 9rem;
+}
+  /* font weights  */
+  .font-900{
+    font-weight: 900 !important;
+  }
+  .font-700{
+    font-weight: 700;
+  }
+  .font-600{
+      font-weight: 600;
+  }
+  .font-500{
+    font-weight: 500;
+  }
+  .font-400{
+    font-weight: 400 !important;
+  }
+  .font-300{
+      font-weight: 300;
+  }
+  .font-200{
+      font-weight: 200;
+  }
+  /* font colors */
+  .font-black{
+    color: #18191b;
+  }
+  .font-white{
+    color: #f8fefc;
+  }
+  .font-red{
+    color: #ef515e;
+  }
+  .font-green{
+    color:#16a085;
+  }
+  .font-blue{
+    color: #192a3f;
+  }
+  .font-grey{
+    color: #646161;
+  }
+  /* background colors */
+  .bg-black{
+    background-color: #18191b !important;
+  }
+  .bg-white{
+    background-color: #F8FEFC;
+  }
+  .o-white{
+    background-color: #F8FEFC;
+    opacity: 0.8 ;
+  }
+  .bg-blue{
+    background-color: #192a3f;
+  }
+  .bg-red{
+    background-color: #ef515e;
+  }
+  .bg-green{
+      background-color: #355438 !important;
+  }
+  .bg-lightgreen{
+      background-color: #43793B;
+  }
+  .bg-warmgreen{
+    background-color: #3F6441;
+  }
+  /* letter spacing */
+  .spacing-1{
+    letter-spacing: 1.5px;
+  }
+  .spacing-2{
+    letter-spacing: 2px;
+  }
+  .spacing-3{
+    letter-spacing: 3px;
+  }
+  .spacing-4{
+    letter-spacing: 4px; 
+  }
+  /* line heights  */
+  .line-height-1{
+    line-height: 1;
+  }
+  .line-height-2{
+    line-height: 2;
+  }
+  /* text align */
+  .text-center{
+    text-align: center !important;
+  }
+  .text-left{
+    text-align: left;
+  }
+  .text-right{
+    text-align: right;
+  }
+  /* container padding */
+  .large-padding{
+    padding: 4% 16%;
+  }
+  .container-padding{
+    padding: 4% 8%;
+  }
+  .small-container-padding{
+    padding:1% 1%;
+  }
+  .top-padding{
+    padding-top: 20px;
+  }
+  .bottom-padding{
+    padding-bottom: 20px;
+  }
+  .right-padding{
+    padding-right: 15px;
+  }
+  .text-bottom-padding{
+    padding-bottom: 60px;
+  }
+  /* margins */
+  .small-margin-top{
+    margin-top: 60px;
+  }
+  .margin-top{
+    margin-top: 110px;
+  }
+  .margin-bottom{
+    margin-bottom: 110px;
+  }
+  .footer-icon{
+   padding: 5px 20px 30px 0px;
+  }
+  /* random border */
+  .border-green{
+    border-bottom: 5px solid #43793B;
+  }
+  .box-border{
+    border: 2px solid black;
+  }
+  .round-border{
+    border-radius: 40px;
+  }
+  .box-shadow{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  }
+  .hover:hover{
+    border-bottom: 5px solid #43793B;
+    transition: 0.2s;
+  }
+  .btnh:hover{
+    padding: 0px 10px 0px 10px !important;
+    transition: padding 0.3s;
+  }
+  @media (max-width: 1080px){
+    .mobile-2xl{
+      font-size: 1.65rem !important;
+  }
+  .mobile-3xl{
+      font-size: 1.875rem !important;
+  }
+  .mobile-4xl{
+    font-size: 2.25rem !important;
+}
+  .mobile-5xl{
+    font-size: 2.75rem !important;
+}
+  .mobile-7xl{
+      font-size: 3.2rem !important;
+  }
+}
+@media (max-width: 600px){
+    
+}
+@media (max-width: 450px){
+
+  .mobile-1xl{
+    font-size: 1.2rem;
+  }
+    .mobile-2xl{
+        font-size: 1.2rem !important;
+    }
+    .mobile-3xl{
+        font-size: 1.875rem !important;
+    }
+    .mobile-4xl{
+      font-size: 2.25rem !important;
+  }
+    .mobile-5xl{
+      font-size: 2.75rem !important;
+  }
+    .mobile-7xl{
+        font-size: 3.2rem !important;
+    }
+
+
+}

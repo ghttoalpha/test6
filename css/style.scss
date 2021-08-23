@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+body,a,button,span,form,ul,li,p {
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+
+  .background-img{
+      background: url('images/backimg.jpg')no-repeat center center;
+  }
+.nav-link{
+    padding: 20px 0px 0px 40px !important;
+}
+
+/* CALL US TODAY SECTION  */
+.cta-number-container{
+    display: flex;
+    margin-left: 40px;
+}
+.number-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 2px 2px 10px;
+}
+.fa-mobile-alt{
+    padding:8px;
+}
+/* *** END CALL US TODAY SECTION  */
+.btn-lightgreen{
+    background-color: #43793B;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    outline: none;
+}
+
+/* COMMUNITY SECTION  */
+.img-4{
+    border-radius: 24px;
+}
+/* *** END COMMUNITY SECTION  */
+
+/* CTA SECTION */
+.cta-container1{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1080px){
+    .img-1{
+        width: 80%;
+    }
+    .img-5{
+        width: 30%;
+    }
+    .img-about{
+        display: none;
+    }
+}
+@media (max-width: 600px){
+ 
+}
+@media (max-width: 450px){
+    .img-1{
+        width: 100%;
+    }
+    .img-a{
+        width: 40%;
+    }
+    .img-about{
+        display: none;
+    }
+    .img-4{
+        width: 80%;
+    }
+    .img-5{
+        width: 50%;
+    }
+    .cta-number-container{
+        padding-top: 50px;
+    }
+}
+
